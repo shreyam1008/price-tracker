@@ -3,7 +3,7 @@ import bs4
 import re
 #addition
 class PriceTrack:
-
+this is some changes
 	def __init__(self, link):
 		self.link = link
 		self.resp = requests.get(self.link)
